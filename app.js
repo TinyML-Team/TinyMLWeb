@@ -8,10 +8,8 @@ app.use('/static', express.static('public'));
 
 
 app.get('/', function(req,res) {
-  res.sendFile(__dirname + "/public/main.html")
+  res.sendFile(__dirname + "/static/index.html")
 })
-
-
 
 
 //3000번 포트로 서버를 오픈한다.
