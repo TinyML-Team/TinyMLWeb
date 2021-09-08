@@ -13,6 +13,6 @@ app.get('/', function(req,res) {
 
 
 //3000번 포트로 서버를 오픈한다.
-app.listen(443, () => {
+app.listen(3000, () => {
   console.log("Sever On");
 })
